@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration page</title>
+<style type="text/css">
+body
+{
+background:"blue";
+
+}</style>
+</head>
+<body>
+<form action="saveServlet" method="post">
+  <table>
+  <h1>Registration page</h1>
+     <tr>
+        <td>Name </td>
+        <td><input type="text" name="sname" ></td>
+     </tr>
+     <tr>
+        <td>contact </td>
+        <td><input type="number" name="scontact" ></td>
+     </tr>
+     <tr>
+        <td>city </td>
+        <td>
+          <select name="scity">
+             <option>surat</option>
+             <option>ahemdabad</option>
+             <option>baroda</option>
+             <option>other</option>
+           
+          
+          </select>
+          
+        
+        </td>
+     </tr>
+     
+     <tr>
+        
+        <td><input type="submit" value="Register" ></td>
+     </tr>
+  
+  
+  
+  </table>
+
+
+
+
+
+</form>
+
+<a href="ViewServlet">View all data</a>
+
+
+</body>
+</html>
